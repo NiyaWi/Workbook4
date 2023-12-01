@@ -1,7 +1,8 @@
 "use strict";
- let message = "I love loops";
-for (let index = 0; message.length <= 11;   index++ ){
-    message = message;
+let message = "I love loops";
+for (let i = 0; i <= 7;  i++ )
+{
+
     console.log(message);
+  
 }
-console.log(message);
