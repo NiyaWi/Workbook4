@@ -2,7 +2,7 @@
 function parsePartCode(partCode){
     return {
         supplierCode: partCode.split(":")[0],
-        productNumber: partCode.split(":")[1],
+        productNumber: partCode.split(":,- ")[1],
         size: partCode.split("-")[1]
         
     }
